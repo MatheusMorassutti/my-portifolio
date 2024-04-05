@@ -1,5 +1,7 @@
 :root {
-
+  --text-primary: white;
+  --background-color:#2C2C2C;
+  --text-secundary:#b3b3b3;
 }
 
 * {
@@ -14,6 +16,9 @@ body{
   overflow: hidden;
 }
 
+body{
+  background-color: var(--background-color);
+}
 
 
 
